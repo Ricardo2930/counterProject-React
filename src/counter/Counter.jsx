@@ -19,10 +19,10 @@ function Counter () {
             </h2>
             
             {/* usando el evento onClick. Al hacer click en el boton se ejecutara la funcion setContador y se actualizara a el valor actual del contador+1 */}
-            <div class="btn">
-                <button class="incrementar" onClick={incrementar}>⏫Incrementar</button>
-                <button class="reiniciar" onClick={reiniciar}>🔴Reiniciar</button>
-                <button class="decrementar" onClick={decrementar}>⏬Decrementar</button>  
+            <div className="btn">
+                <button className="incrementar" onClick={incrementar}>⏫Incrementar</button>
+                <button className="reiniciar" onClick={reiniciar}>🔴Reiniciar</button>
+                <button className="decrementar" onClick={decrementar}>⏬Decrementar</button>  
             </div>
              
         </div>
